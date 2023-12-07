@@ -424,29 +424,6 @@
     chalk "4.1.2"
     ts-morph "^20.0.0"
 
-"@matterlabs/hardhat-zksync-node@^0.0.1-beta.1":
-  version "0.0.1-beta.1"
-  resolved "https://registry.yarnpkg.com/@matterlabs/hardhat-zksync-node/-/hardhat-zksync-node-0.0.1-beta.1.tgz#ef265d707c84b897a32bc3ca37e2bf3c5352ad56"
-  integrity sha512-pKJgk7uHAz6vior9XU7W//ycuSnPSa0Zo/hMEqHacdpKBcS1c+eP1Z4EnUwO7fxlOEfyW+suoM+JkN+HHE+XHg==
-  dependencies:
-    "@matterlabs/hardhat-zksync-solc" "0.4.2"
-    axios "^1.4.0"
-    chalk "4.1.2"
-    fs-extra "^11.1.1"
-    ts-morph "^19.0.0"
-
-"@matterlabs/hardhat-zksync-solc@0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@matterlabs/hardhat-zksync-solc/-/hardhat-zksync-solc-0.4.2.tgz#64121082e88c5ab22eb4e9594d120e504f6af499"
-  integrity sha512-6NFWPSZiOAoo7wNuhMg4ztj7mMEH+tLrx09WuCbcURrHPijj/KxYNsJD6Uw5lapKr7G8H7SQISGid1/MTXVmXQ==
-  dependencies:
-    "@nomiclabs/hardhat-docker" "^2.0.0"
-    chalk "4.1.2"
-    dockerode "^3.3.4"
-    fs-extra "^11.1.1"
-    proper-lockfile "^4.1.2"
-    semver "^7.5.1"
-
 "@matterlabs/hardhat-zksync-solc@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@matterlabs/hardhat-zksync-solc/-/hardhat-zksync-solc-1.0.0.tgz#4da54b59fb4fa9c2ba22a3bb2e6150cf1d70028c"
@@ -837,16 +814,6 @@
   dependencies:
     "@sentry/types" "5.30.0"
     tslib "^1.9.3"
-
-"@ts-morph/common@~0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@ts-morph/common/-/common-0.20.0.tgz#3f161996b085ba4519731e4d24c35f6cba5b80af"
-  integrity sha512-7uKjByfbPpwuzkstL3L5MQyuXPSKdoNG93Fmi2JoDcTf3pEP731JdRFAduRVkOs8oqxPsXKA+ScrWkdQ8t/I+Q==
-  dependencies:
-    fast-glob "^3.2.12"
-    minimatch "^7.4.3"
-    mkdirp "^2.1.6"
-    path-browserify "^1.0.1"
 
 "@ts-morph/common@~0.21.0":
   version "0.21.0"
@@ -3018,14 +2985,6 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
-
-ts-morph@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/ts-morph/-/ts-morph-19.0.0.tgz#43e95fb0156c3fe3c77c814ac26b7d0be2f93169"
-  integrity sha512-D6qcpiJdn46tUqV45vr5UGM2dnIEuTGNxVhg0sk5NX11orcouwj6i1bMqZIz2mZTZB1Hcgy7C3oEVhAT+f6mbQ==
-  dependencies:
-    "@ts-morph/common" "~0.20.0"
-    code-block-writer "^12.0.0"
 
 ts-morph@^20.0.0:
   version "20.0.0"
